@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "run": "2",
+    "strategy": "S1",
+    "model": "openai/gpt-5.6-luna",
+    "k": null,
+    "questions": 20,
+    "correct": 20,
+    "unanswered": 0,
+    "input_tokens": 43619,
+    "output_tokens": 5505,
+    "median_seconds": 4.02,
+    "total_seconds": 93.6,
+    "cost_usd": 0.0153
+  },
+  "results": [
+    {
+      "answer": [
+        "Ossbridge",
+        4.57
+      ],
+      "text": "ANSWER: Ossbridge | 4.570",
+      "input_tokens": 2175,
+      "output_tokens": 655,
+      "calls": 1,
+      "seconds": 7.82,
+      "id": "Q-01",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Harrowfield",
+        1.692
+      ],
+      "text": "ANSWER: Harrowfield | 1.692",
+      "input_tokens": 2181,
+      "output_tokens": 190,
+      "calls": 1,
+      "seconds": 3.25,
+      "id": "Q-02",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Lindenmoor",
+        5.34
+      ],
+      "text": "ANSWER: Lindenmoor | 5.340",
+      "input_tokens": 2181,
+      "output_tokens": 346,
+      "calls": 1,
+      "seconds": 5.66,
+      "id": "Q-03",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "ANSWER: Millbrook | 2.592",
+      "input_tokens": 2176,
+      "output_tokens": 78,
+      "calls": 1,
+      "seconds": 2.9,
+      "id": "Q-04",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Coldharbour",
+        14235.314
+      ],
+      "text": "ANSWER: Coldharbour | 14235.314",
+      "input_tokens": 2177,
+      "output_tokens": 480,
+      "calls": 1,
+      "seconds": 6.76,
+      "id": "Q-05",
+      "correct": true
+    },
+    {
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "text": "ANSWER: yes | 14069.000",
+      "input_tokens": 2181,
+      "output_tokens": 75,
+      "calls": 1,
+      "seconds": 3.02,
+      "id": "Q-06",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Coldharbour",
+        18.496
+      ],
+      "text": "ANSWER: Coldharbour | 18.496",
+      "input_tokens": 2185,
+      "output_tokens": 256,
+      "calls": 1,
+      "seconds": 4.08,
+      "id": "Q-07",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Brightwater",
+        72.456
+      ],
+      "text": "ANSWER: Brightwater | 72.456",
+      "input_tokens": 2183,
+      "output_tokens": 140,
+      "calls": 1,
+      "seconds": 3.27,
+      "id": "Q-08",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Millbrook",
+        0.556
+      ],
+      "text": "ANSWER: Millbrook | 0.556",
+      "input_tokens": 2175,
+      "output_tokens": 246,
+      "calls": 1,
+      "seconds": 3.54,
+      "id": "Q-09",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "ANSWER: Stonecairn | 8.000",
+      "input_tokens": 2172,
+      "output_tokens": 55,
+      "calls": 1,
+      "seconds": 2.92,
+      "id": "Q-10",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Redfen",
+        56.1
+      ],
+      "text": "ANSWER: Redfen | 56.100",
+      "input_tokens": 2190,
+      "output_tokens": 92,
+      "calls": 1,
+      "seconds": 2.77,
+      "id": "Q-11",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Tarnvale",
+        64.392
+      ],
+      "text": "ANSWER: Tarnvale | 64.392",
+      "input_tokens": 2178,
+      "output_tokens": 270,
+      "calls": 1,
+      "seconds": 3.95,
+      "id": "Q-12",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Coldharbour",
+        4.159
+      ],
+      "text": "ANSWER: Coldharbour | 4.159",
+      "input_tokens": 2185,
+      "output_tokens": 200,
+      "calls": 1,
+      "seconds": 4.26,
+      "id": "Q-13",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Ashgrove",
+        4.853
+      ],
+      "text": "ANSWER: Ashgrove | 4.853",
+      "input_tokens": 2181,
+      "output_tokens": 532,
+      "calls": 1,
+      "seconds": 6.94,
+      "id": "Q-14",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Redfen",
+        17.609
+      ],
+      "text": "ANSWER: Redfen | 17.609",
+      "input_tokens": 2176,
+      "output_tokens": 100,
+      "calls": 1,
+      "seconds": 3.4,
+      "id": "Q-15",
+      "correct": true
+    },
+    {
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "text": "ANSWER: yes | 23.900",
+      "input_tokens": 2175,
+      "output_tokens": 68,
+      "calls": 1,
+      "seconds": 2.73,
+      "id": "Q-16",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Harrowfield",
+        884.457
+      ],
+      "text": "ANSWER: Harrowfield | 884.457",
+      "input_tokens": 2187,
+      "output_tokens": 473,
+      "calls": 1,
+      "seconds": 7.59,
+      "id": "Q-17",
+      "correct": true
+    },
+    {
+      "answer": [
+        "yes",
+        40013.393
+      ],
+      "text": "ANSWER: yes | 40013.393",
+      "input_tokens": 2198,
+      "output_tokens": 192,
+      "calls": 1,
+      "seconds": 4.61,
+      "id": "Q-18",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "ANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2175,
+      "output_tokens": 258,
+      "calls": 1,
+      "seconds": 4.61,
+      "id": "Q-19",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Ashgrove",
+        2993.343
+      ],
+      "text": "ANSWER: Ashgrove | 2993.343",
+      "input_tokens": 2188,
+      "output_tokens": 799,
+      "calls": 1,
+      "seconds": 9.52,
+      "id": "Q-20",
+      "correct": true
+    }
+  ]
+}

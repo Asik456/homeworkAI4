@@ -1,0 +1,5 @@
+Q-01 ('Ossbridge', 4.57) tool calls: 5 rounds: 3 OK
+Q-03 ('Lindenmoor', 5.34) tool calls: 7 rounds: 3 OK
+Q-08 ('Brightwater', 1.064) tool calls: 5 rounds: 3 X
+Q-09 ('Millbrook', 0.556) tool calls: 5 rounds: 3 OK
+Q-17 ('Harrowfield', 884.457) tool calls: 7 rounds: 4 OK

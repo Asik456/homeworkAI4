@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- homeworkAI4/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: homeworkAI4
+plugins: anyio-4.12.1
+collecting ... collected 15 items
+
+tests/test_tools.py::test_lookup_finds_2025_population PASSED            [  6%]
+tests/test_tools.py::test_lookup_misspelled_name PASSED                  [ 13%]
+tests/test_tools.py::test_lookup_similar_names_are_not_mixed PASSED      [ 20%]
+tests/test_tools.py::test_lookup_skips_archived_profile PASSED           [ 26%]
+tests/test_tools.py::test_lookup_applies_correction PASSED               [ 33%]
+tests/test_tools.py::test_lookup_converts_cubic_metres PASSED            [ 40%]
+tests/test_tools.py::test_lookup_unknown_field_and_district PASSED       [ 46%]
+tests/test_tools.py::test_lookup_bad_input_does_not_crash PASSED         [ 53%]
+tests/test_tools.py::test_calculate_multiplication PASSED                [ 60%]
+tests/test_tools.py::test_calculate_refuses_import PASSED                [ 66%]
+tests/test_tools.py::test_calculate_refuses_class PASSED                 [ 73%]
+tests/test_tools.py::test_calculate_refuses_huge_power_fast PASSED       [ 80%]
+tests/test_tools.py::test_calculate_division_by_zero PASSED              [ 86%]
+tests/test_tools.py::test_calculate_brackets_and_order PASSED            [ 93%]
+tests/test_tools.py::test_calculate_bad_syntax_and_commas PASSED         [100%]
+
+============================== 15 passed in 0.02s ==============================
