@@ -205,9 +205,20 @@ I also did not choose **one tool per calculation** (`density`, `per_resident`, .
 
 **What I kept the same:**
 
-<!-- model, temperature, k, prompts, answer format, anything else -->
+- Model: `openai/gpt-5.6-luna` through OpenRouter, with `allow_fallbacks: false` (so no other model can answer).
+- The same 20 questions from `data/questions.json`, in the same order.
+- The same answer format for all three strategies: the last line is `ANSWER: <district name or yes/no> | <number>`, number without units and commas, rounded to 3 decimals (`ANSWER_FORMAT` in `strategies.py`).
+- The same scorer (`is_correct` in `run.py`) for all three.
+- The same documents for S1 and S2: all 17 documents, in file order, in the user message. S3 gets no documents, only the two tools.
+- k = 5 for S2, with `temperature = 1.0`. S1 and S3 use the default settings (no temperature set).
+- S3: round limit 12. Same tool definitions in every question.
+- Cost is computed with the luna price on OpenRouter: $0.20 per million input tokens and $1.20 per million output tokens. Tokens come from `usage` of every call (all 5 samples in S2, every round in S3).
 
 **My rule for a correct answer** (written before the first full run):
+
+- The name must be the same as `answer` (not case-sensitive). For yes/no questions it must be `yes` or `no`.
+- I round the model's number to `decimals` of the question. It is correct when it is equal to `value`, or different by 1 in the last digit (for example `value` 0.6: 0.5, 0.6 and 0.7 are accepted).
+- No `ANSWER:` line, or a strategy that stops (round limit or error) → **unanswered**, and it counts as wrong.
 
 | Run | Strategy | Correct /20 | Unanswered | Input tokens | Output tokens | Median seconds per question | Total seconds | Cost ($) |
 |---|---|---:|---:|---:|---:|---:|---:|---:|

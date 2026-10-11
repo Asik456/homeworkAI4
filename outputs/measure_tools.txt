@@ -1,0 +1,4 @@
+tiktoken o200k_base, tool JSON: 444
+usage.prompt_tokens without tools: 9
+usage.prompt_tokens with tools: 375
+tools add: 366

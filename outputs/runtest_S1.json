@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "run": "test",
+    "strategy": "S1",
+    "model": "openai/gpt-5.6-luna",
+    "k": null,
+    "questions": 2,
+    "correct": 2,
+    "unanswered": 0,
+    "input_tokens": 4356,
+    "output_tokens": 838,
+    "median_seconds": 6.46,
+    "total_seconds": 12.93,
+    "cost_usd": 0.0019
+  },
+  "results": [
+    {
+      "answer": [
+        "Lindenmoor",
+        5.34
+      ],
+      "text": "ANSWER: Lindenmoor | 5.340",
+      "input_tokens": 2181,
+      "output_tokens": 519,
+      "calls": 1,
+      "seconds": 8.92,
+      "id": "Q-03",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Millbrook",
+        0.556
+      ],
+      "text": "ANSWER: Millbrook | 0.556",
+      "input_tokens": 2175,
+      "output_tokens": 319,
+      "calls": 1,
+      "seconds": 4.01,
+      "id": "Q-09",
+      "correct": true
+    }
+  ]
+}

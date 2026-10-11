@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "run": "test",
+    "strategy": "S2",
+    "model": "openai/gpt-5.6-luna",
+    "k": 5,
+    "questions": 2,
+    "correct": 2,
+    "unanswered": 0,
+    "input_tokens": 21880,
+    "output_tokens": 5713,
+    "median_seconds": 34.11,
+    "total_seconds": 68.22,
+    "cost_usd": 0.0112
+  },
+  "results": [
+    {
+      "answer": [
+        "lindenmoor",
+        5.34
+      ],
+      "votes": [
+        [
+          [
+            "lindenmoor",
+            5.34
+          ],
+          5
+        ]
+      ],
+      "samples": [
+        {
+          "answer": [
+            "Lindenmoor",
+            5.34
+          ],
+          "text": "Facts used:\n- Lindenmoor: 2,151,400 cubic metres of household water and 29,051 residents.\n- Kelmarsh: 1,739 megalitres of household water and 24,117 residents.\n- 1 megalitre = 1,000 cubic metres; 2025 has 365 days.\n\nCalculations:\n- Lindenmoor water: 2,151,400 × 1,000 = 2,151,400,000 litres.\n- Lindenmoor daily use per resident: 2,151,400,000 ÷ 29,051 ÷ 365 = 202.893 litres.\n- Kelmarsh water: 1,739 × 1,000,000 = 1,739,000,000 litres.\n- Kelmarsh daily use per resident: 1,739,000,000 ÷ 24,117 ÷ 365 = 197.553 litres.\n- Difference: 202.893 − 197.553 = 5.340 litres per resident per day.\n\nLindenmoor households used more water per resident per day.\n\nANSWER: Lindenmoor | 5.340"
+        },
+        {
+          "answer": [
+            "Lindenmoor",
+            5.34
+          ],
+          "text": "Facts used:\n- Lindenmoor: 2,151,400 cubic metres of household water and 29,051 residents.\n- Kelmarsh: 1,739 megalitres of household water and 24,117 residents.\n- 1 megalitre = 1,000 cubic metres; 2025 had 365 days.\n\nCalculations:\n- Lindenmoor water: 2,151,400 × 1,000 = 2,151,400,000 litres.\n- Lindenmoor per resident per day: 2,151,400,000 ÷ (29,051 × 365) = 202.893 litres.\n- Kelmarsh water: 1,739 × 1,000 × 1,000 = 1,739,000,000 litres.\n- Kelmarsh per resident per day: 1,739,000,000 ÷ (24,117 × 365) = 197.553 litres.\n- Difference: 202.893 − 197.553 = 5.340 litres per resident per day.\n\nLindenmoor households used more water, by 5.340 litres per resident per day.\n\nANSWER: Lindenmoor | 5.340"
+        },
+        {
+          "answer": [
+            "Lindenmoor",
+            5.34
+          ],
+          "text": "Facts used:\n- Lindenmoor: 2,151,400 cubic metres of water and 29,051 residents.\n- Kelmarsh: 1,739 megalitres = 1,739,000 cubic metres, and 24,117 residents.\n- 2025 has 365 days.\n- 1 cubic metre = 1,000 litres.\n\nCalculations:\n- Lindenmoor: \\(2,151,400 \\times 1,000 \\div 29,051 \\div 365 = 202.893\\) litres per resident per day.\n- Kelmarsh: \\(1,739,000 \\times 1,000 \\div 24,117 \\div 365 = 197.553\\) litres per resident per day.\n- Difference: \\(202.893 - 197.553 = 5.340\\) litres per resident per day.\n\nLindenmoor households used more water per resident per day.\n\nANSWER: Lindenmoor | 5.340"
+        },
+        {
+          "answer": [
+            "Lindenmoor",
+            5.34
+          ],
+          "text": "Facts used:\n- Lindenmoor: 2,151,400 cubic metres of water and 29,051 residents.\n- Kelmarsh: 1,739 megalitres of water and 24,117 residents.\n- 1 cubic metre = 1,000 litres; 2025 had 365 days.\n\nCalculations:\n- Lindenmoor: \\(2,151,400 \\times 1,000 \\div 29,051 \\div 365 = 202.893\\) litres per resident per day.\n- Kelmarsh: \\(1,739 \\times 1,000,000 \\div 24,117 \\div 365 = 197.553\\) litres per resident per day.\n- Difference: \\(202.893 - 197.553 = 5.340\\).\n\nLindenmoor households used more water per resident per day, by 5.340 litres.\n\nANSWER: Lindenmoor | 5.340"
+        },
+        {
+          "answer": [
+            "Lindenmoor",
+            5.34
+          ],
+          "text": "Facts used:\n- Lindenmoor: 29,051 residents; 2,151,400 cubic metres of household water.\n- Kelmarsh: 24,117 residents; 1,739 megalitres of household water.\n- 1 megalitre = 1,000,000 litres.\n- 2025 has 365 days.\n\nCalculations:\n- Lindenmoor: \\(2,151,400,000 \\div (29,051 \\times 365) = 202.893\\) litres per resident per day.\n- Kelmarsh: \\(1,739,000,000 \\div (24,117 \\times 365) = 197.553\\) litres per resident per day.\n- Difference: \\(202.893 - 197.553 = 5.340\\) litres per resident per day.\n\nLindenmoor households used more water.\n\nANSWER: Lindenmoor | 5.340"
+        }
+      ],
+      "input_tokens": 10955,
+      "output_tokens": 3501,
+      "calls": 5,
+      "seconds": 38.42,
+      "id": "Q-03",
+      "correct": true
+    },
+    {
+      "answer": [
+        "millbrook",
+        0.556
+      ],
+      "votes": [
+        [
+          [
+            "millbrook",
+            0.556
+          ],
+          5
+        ]
+      ],
+      "samples": [
+        {
+          "answer": [
+            "Millbrook",
+            0.556
+          ],
+          "text": "Facts used:\n- Brightwater: 44,675 residents and corrected area of 921.4 km².\n- Millbrook: 37,203 residents and area of 758.6 km².\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.486 residents/km².\n- Millbrook density = 37,203 ÷ 758.6 = 49.042 residents/km².\n- Difference = 49.042 − 48.486 = 0.556 residents/km².\n\nMillbrook has the higher population density by 0.556 residents per square kilometre.\n\nANSWER: Millbrook | 0.556"
+        },
+        {
+          "answer": [
+            "Millbrook",
+            0.556
+          ],
+          "text": "Facts used:\n- Brightwater: 44,675 residents and corrected area of 921.4 km².\n- Millbrook: 37,203 residents and area of 758.6 km².\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.486 residents/km².\n- Millbrook density = 37,203 ÷ 758.6 = 49.042 residents/km².\n- Difference = 49.042 − 48.486 = 0.556 residents/km².\n\nMillbrook has the higher population density.\n\nANSWER: Millbrook | 0.556"
+        },
+        {
+          "answer": [
+            "Millbrook",
+            0.556
+          ],
+          "text": "Facts used:\n- Brightwater 2025 population: 44,675; corrected area: 921.4 km².\n- Millbrook 2025 population: 37,203; area: 758.6 km².\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.486 residents/km².\n- Millbrook density = 37,203 ÷ 758.6 = 49.042 residents/km².\n- Difference = 49.042 − 48.486 = 0.556 residents/km².\n\nMillbrook has the higher population density.\n\nANSWER: Millbrook | 0.556"
+        },
+        {
+          "answer": [
+            "Millbrook",
+            0.556
+          ],
+          "text": "Facts used:\n- Brightwater 2025 population: 44,675; corrected area: 921.4 km².\n- Millbrook 2025 population: 37,203; area: 758.6 km².\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.480 residents/km².\n- Millbrook density = 37,203 ÷ 758.6 = 49.036 residents/km².\n- Difference = 49.036 − 48.480 = 0.556 residents/km².\n\nMillbrook has the higher population density.\n\nANSWER: Millbrook | 0.556"
+        },
+        {
+          "answer": [
+            "Millbrook",
+            0.556
+          ],
+          "text": "Facts used:\n- Brightwater: 44,675 residents and corrected area of 921.4 km².\n- Millbrook: 37,203 residents and area of 758.6 km².\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.486 residents/km².\n- Millbrook density = 37,203 ÷ 758.6 = 49.042 residents/km².\n- Difference = 49.042 − 48.486 = 0.556 residents/km².\n\nMillbrook has the higher population density.\n\nANSWER: Millbrook | 0.556"
+        }
+      ],
+      "input_tokens": 10925,
+      "output_tokens": 2212,
+      "calls": 5,
+      "seconds": 29.8,
+      "id": "Q-09",
+      "correct": true
+    }
+  ]
+}

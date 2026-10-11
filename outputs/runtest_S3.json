@@ -1,0 +1,222 @@
+{
+  "summary": {
+    "run": "test",
+    "strategy": "S3",
+    "model": "openai/gpt-5.6-luna",
+    "k": null,
+    "questions": 2,
+    "correct": 2,
+    "unanswered": 0,
+    "input_tokens": 4436,
+    "output_tokens": 636,
+    "median_seconds": 9.82,
+    "total_seconds": 19.64,
+    "cost_usd": 0.0017
+  },
+  "results": [
+    {
+      "answer": [
+        "Lindenmoor",
+        5.34
+      ],
+      "text": "Lindenmoor households used more water: by 5.340 litres per resident per day.\n\nANSWER: Lindenmoor | 5.340",
+      "rounds": 3,
+      "tool_calls": 5,
+      "log": [
+        {
+          "round": 1,
+          "input_tokens": 481,
+          "output_tokens": 151
+        },
+        {
+          "round": 1,
+          "id": "call_I1YNwBHj9QUtgObWwaXdhUH0",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Lindenmoor\",\"field\":\"water_megalitres\"}",
+          "result": {
+            "district": "Lindenmoor",
+            "field": "water_megalitres",
+            "value": 2151.4,
+            "unit": "megalitres",
+            "source": "NR-08 (converted from cubic metres: 1 megalitre = 1,000 m3)"
+          },
+          "seconds": 0.000483
+        },
+        {
+          "round": 1,
+          "id": "call_vGqSAYOzNrcQ9ZjhP07HwygT",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Lindenmoor\",\"field\":\"population_2025\"}",
+          "result": {
+            "district": "Lindenmoor",
+            "field": "population_2025",
+            "value": 29051,
+            "unit": "residents",
+            "source": "NR-08"
+          },
+          "seconds": 0.000581
+        },
+        {
+          "round": 1,
+          "id": "call_gPmPixjZlG9SFdTjiHv5OnmU",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Kelmarsh\",\"field\":\"water_megalitres\"}",
+          "result": {
+            "district": "Kelmarsh",
+            "field": "water_megalitres",
+            "value": 1739,
+            "unit": "megalitres",
+            "source": "NR-04"
+          },
+          "seconds": 3.8e-05
+        },
+        {
+          "round": 1,
+          "id": "call_Lnl8cF8s4fSdlFfl86IYTEwH",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Kelmarsh\",\"field\":\"population_2025\"}",
+          "result": {
+            "district": "Kelmarsh",
+            "field": "population_2025",
+            "value": 24117,
+            "unit": "residents",
+            "source": "NR-04"
+          },
+          "seconds": 1.6e-05
+        },
+        {
+          "round": 2,
+          "input_tokens": 849,
+          "output_tokens": 43
+        },
+        {
+          "round": 2,
+          "id": "call_w5Nj1rSWnA0ZoqA8bAZEzAFz",
+          "tool": "calculate",
+          "arguments": "{\"expression\":\"(2151.4*1000000/29051/365)-(1739*1000000/24117/365)\"}",
+          "result": {
+            "expression": "(2151.4*1000000/29051/365)-(1739*1000000/24117/365)",
+            "result": 5.3401586651
+          },
+          "seconds": 0.003135
+        },
+        {
+          "round": 3,
+          "input_tokens": 943,
+          "output_tokens": 100
+        },
+        {
+          "final_text": "Lindenmoor households used more water: by 5.340 litres per resident per day.\n\nANSWER: Lindenmoor | 5.340"
+        }
+      ],
+      "input_tokens": 2273,
+      "output_tokens": 294,
+      "calls": 3,
+      "seconds": 8.26,
+      "id": "Q-03",
+      "correct": true
+    },
+    {
+      "answer": [
+        "Millbrook",
+        0.556
+      ],
+      "text": "Millbrook has the higher 2025 population density, by 0.556 residents per square kilometre.\n\nANSWER: Millbrook | 0.556",
+      "rounds": 3,
+      "tool_calls": 5,
+      "log": [
+        {
+          "round": 1,
+          "input_tokens": 475,
+          "output_tokens": 126
+        },
+        {
+          "round": 1,
+          "id": "call_WMHje7q4YmQEXM1cr0GigHIb",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Brightwater\",\"field\":\"population_2025\"}",
+          "result": {
+            "district": "Brightwater",
+            "field": "population_2025",
+            "value": 44675,
+            "unit": "residents",
+            "source": "NR-05"
+          },
+          "seconds": 0.000204
+        },
+        {
+          "round": 1,
+          "id": "call_u0ArSlhgxk2bCsYl9UX3Gs46",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Brightwater\",\"field\":\"area_km2\"}",
+          "result": {
+            "district": "Brightwater",
+            "field": "area_km2",
+            "value": 921.4,
+            "unit": "km2",
+            "source": "NR-05, corrected by NR-16"
+          },
+          "seconds": 0.000448
+        },
+        {
+          "round": 1,
+          "id": "call_P5lmHyl2ckM8frvjWGRgEPIX",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Millbrook\",\"field\":\"population_2025\"}",
+          "result": {
+            "district": "Millbrook",
+            "field": "population_2025",
+            "value": 37203,
+            "unit": "residents",
+            "source": "NR-11"
+          },
+          "seconds": 4.2e-05
+        },
+        {
+          "round": 1,
+          "id": "call_Dw6jZw7zhcipaMR72kzlDTdZ",
+          "tool": "lookup",
+          "arguments": "{\"district\":\"Millbrook\",\"field\":\"area_km2\"}",
+          "result": {
+            "district": "Millbrook",
+            "field": "area_km2",
+            "value": 758.6,
+            "unit": "km2",
+            "source": "NR-11"
+          },
+          "seconds": 2.5e-05
+        },
+        {
+          "round": 2,
+          "input_tokens": 795,
+          "output_tokens": 55
+        },
+        {
+          "round": 2,
+          "id": "call_WEkoaKeLEasfv2Xl0A3OytlR",
+          "tool": "calculate",
+          "arguments": "{\"expression\":\"(44675 / 921.4) - (37203 / 758.6)\"}",
+          "result": {
+            "expression": "(44675 / 921.4) - (37203 / 758.6)",
+            "result": -0.5556561156
+          },
+          "seconds": 0.000262
+        },
+        {
+          "round": 3,
+          "input_tokens": 893,
+          "output_tokens": 161
+        },
+        {
+          "final_text": "Millbrook has the higher 2025 population density, by 0.556 residents per square kilometre.\n\nANSWER: Millbrook | 0.556"
+        }
+      ],
+      "input_tokens": 2163,
+      "output_tokens": 342,
+      "calls": 3,
+      "seconds": 11.38,
+      "id": "Q-09",
+      "correct": true
+    }
+  ]
+}
